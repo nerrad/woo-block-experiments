@@ -1,10 +1,10 @@
 {
 	"apiVersion": 2,
-	"name": "create-block/woo-block-experiments",
-	"title": "Woo Block Experiments",
-	"category": "widgets",
+	"name": "wcxp/main-block",
+	"title": "Woo Block Experiments - Checkout I2 Prototype",
+	"category": "woocommerce",
 	"icon": "smiley",
-	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"description": "Checkout I2 prototype experiment (testing template locking etc)",
 	"supports": {
 		"html": false
 	},

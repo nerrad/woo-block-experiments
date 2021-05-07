@@ -24,3 +24,11 @@ function create_block_woo_block_experiments_block_init() {
 	register_block_type_from_metadata( __DIR__ );
 }
 add_action( 'init', 'create_block_woo_block_experiments_block_init' );
+
+function create_block_block_categories( $categories, $post ) {
+	return array_merge(
+		$categories,
+		[ [ 'slug' => 'woocommerce', 'title' => 'WooCommerce' ] ]
+	);
+}
+add_filter( 'block_categories', 'create_block_block_categories', 10, 2 );
